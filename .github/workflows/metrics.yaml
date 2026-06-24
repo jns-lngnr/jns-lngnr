@@ -15,7 +15,6 @@ jobs:
       - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
-          user: lngnr
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
